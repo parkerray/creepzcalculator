@@ -1,5 +1,5 @@
 window.onload = function() {
-    
+
     //store elements in DOM as variables
     const loomiPrice = document.querySelector("#loomiPrice");
     const ethPrice = document.querySelector("#ethPrice");
@@ -9,12 +9,13 @@ window.onload = function() {
     const firstLoomi = document.querySelector("#firstLoomi");
     const nextLoomi = document.querySelector("#nextLoomi");
 
-}
+    //get the card divs for formatting later
+    const firstMintCard = firstProfit.closest(".card");
+    const otherMintCard = otherProfit.closest(".card");
+    const firstLoomiCard = firstLoomi.closest(".card");
+    const otherLoomiCard = otherLoomi.closest(".card");
 
-const firstMintCard = firstProfit.closest(".card");
-const otherMintCard = otherProfit.closest(".card");
-const firstLoomiCard = firstLoomi.closest(".card");
-const otherLoomiCard = otherLoomi.closest(".card");
+}
 
 let marketLoomi = 0;
 let marketEthereum = 0;
