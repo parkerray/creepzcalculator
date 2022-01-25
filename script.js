@@ -20,8 +20,10 @@ let otherMintProfit = 0;
 let firstLoomiWithdraw = 0;
 let otherLoomiWithdraw = 0;
 
+GetMarketData();
+
 function GetMarketData() {
-    marketLoomi = 0.5;
+    marketLoomi = "0.5";
     loomiPrice.innerText = marketLoomi;
 }
 
