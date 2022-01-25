@@ -1,21 +1,19 @@
 window.onload = function() {
 
-    //store elements in DOM as variables
-    const loomiPrice = document.querySelector("#loomiPrice");
-    const ethPrice = document.querySelector("#ethPrice");
-    const floorPrice = document.querySelector("#floorPrice");
-    const firstProfit = document.querySelector("#firstProfit");
-    const nextProfit = document.querySelector("#nextProfit");
-    const firstLoomi = document.querySelector("#firstLoomi");
-    const nextLoomi = document.querySelector("#nextLoomi");
+//store elements in DOM as variables
+const loomiPrice = document.querySelector("#loomiPrice");
+const ethPrice = document.querySelector("#ethPrice");
+const floorPrice = document.querySelector("#floorPrice");
+const firstProfit = document.querySelector("#firstProfit");
+const nextProfit = document.querySelector("#nextProfit");
+const firstLoomi = document.querySelector("#firstLoomi");
+const nextLoomi = document.querySelector("#nextLoomi");
 
-    //get the card divs for formatting later
-    const firstMintCard = firstProfit.closest(".card");
-    const otherMintCard = otherProfit.closest(".card");
-    const firstLoomiCard = firstLoomi.closest(".card");
-    const otherLoomiCard = otherLoomi.closest(".card");
-
-}
+//get the card divs for formatting later
+const firstMintCard = firstProfit.closest(".card");
+const otherMintCard = otherProfit.closest(".card");
+const firstLoomiCard = firstLoomi.closest(".card");
+const otherLoomiCard = otherLoomi.closest(".card");
 
 let marketLoomi = 0;
 let marketEthereum = 0;
@@ -64,4 +62,5 @@ function Calculate(loomi, eth, floor) {
         otherLoomiCard.classList.add("green");
     }
 
+}
 }
