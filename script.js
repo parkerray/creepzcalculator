@@ -1,10 +1,15 @@
-const loomiPrice = document.querySelector("#loomiPrice");
-const ethPrice = document.querySelector("#ethPrice");
-const floorPrice = document.querySelector("#floorPrice");
-const firstProfit = document.querySelector("#firstProfit");
-const nextProfit = document.querySelector("#nextProfit");
-const firstLoomi = document.querySelector("#firstLoomi");
-const nextLoomi = document.querySelector("#nextLoomi");
+window.onload = function() {
+    
+    //store elements in DOM as variables
+    const loomiPrice = document.querySelector("#loomiPrice");
+    const ethPrice = document.querySelector("#ethPrice");
+    const floorPrice = document.querySelector("#floorPrice");
+    const firstProfit = document.querySelector("#firstProfit");
+    const nextProfit = document.querySelector("#nextProfit");
+    const firstLoomi = document.querySelector("#firstLoomi");
+    const nextLoomi = document.querySelector("#nextLoomi");
+
+}
 
 const firstMintCard = firstProfit.closest(".card");
 const otherMintCard = otherProfit.closest(".card");
